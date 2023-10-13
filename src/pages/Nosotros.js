@@ -1,9 +1,10 @@
 import React from 'react'
+import Nosotroscard from '../components/nosotrosCard'
 
 const Nosotros = () => {
   return (
     <div>
-        <h1>Nosotros</h1>
+        <Nosotroscard/>
     </div>
   )
 }
