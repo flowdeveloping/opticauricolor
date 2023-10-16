@@ -9,11 +9,12 @@ import {
 } from "mdb-react-ui-kit";
 import "../styles/Footer.css";
 
-export default function App() {
+export default function Footer() {
   return (
-    <MDBFooter bgColor="light" className="text-center text-lg-start text-muted">
+    <div style={{ marginTop: "5rem" }}>
+    <MDBFooter bgColor="light" className="text-center text-lg-start text-muted " >
       <section className="">
-        <MDBContainer className="text-center text-md-start mt-5">
+        <MDBContainer className="text-center text-md-start mt-5" >
           <MDBRow className="mt-3">
             <MDBCol md="3" lg="4" xl="3" className="mx-auto mb-4">
               <h6 className="text-uppercase fw-bold mb-4">Uricolor</h6>
@@ -167,5 +168,6 @@ export default function App() {
         </MDBContainer>
       </MDBFooter>
     </MDBFooter>
+    </div>
   );
 }

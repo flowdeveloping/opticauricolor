@@ -4,6 +4,7 @@ import Nosotroscard from '../components/nosotrosCard'
 const Nosotros = () => {
   return (
     <div>
+        
         <Nosotroscard/>
     </div>
   )
