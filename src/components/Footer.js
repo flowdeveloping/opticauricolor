@@ -18,36 +18,44 @@ export default function Footer() {
           <MDBRow className="mt-3">
             <MDBCol md="3" lg="4" xl="3" className="mx-auto mb-4">
               <h6 className="text-uppercase fw-bold mb-4">Uricolor</h6>
-              <p>Sobre Nosotros</p>
-              <p>Condiciones de Uso</p>
-              <p>Condiciones de Promociones</p>
-              <p>Politica de Privacidad</p>
+              <p><a href="/nosotros" className="text-reset">
+                  Sobre Nosotros
+                </a></p>
+                <p><a href="#!" className="text-reset">
+                  Condiciones de Uso
+                </a></p>
+                <p><a href="#!" className="text-reset">
+                  Condiciones de Promociones
+                </a></p>
+                <p><a href="#!" className="text-reset">
+                  Politica de Privacidad
+                </a></p>
             </MDBCol>
 
             <MDBCol md="2" lg="2" xl="2" className="mx-auto mb-4">
               <h6 className="text-uppercase fw-bold mb-4">Productos</h6>
               <p>
-                <a href="#!" className="text-reset">
+                <a href="../pages/Productos.js" className="text-reset">
                   Anteojos para sol
                 </a>
               </p>
               <p>
-                <a href="#!" className="text-reset">
+                <a href="../pages/Productos.js" className="text-reset">
                   Armazones
                 </a>
               </p>
               <p>
-                <a href="#!" className="text-reset">
+                <a href="../pages/Productos.js" className="text-reset">
                   Accesorios
                 </a>
               </p>
               <p>
-                <a href="#!" className="text-reset">
+                <a href="../pages/Productos.js" className="text-reset">
                   Lentes de Oftálmicos
                 </a>
               </p>
               <p>
-                <a href="#!" className="text-reset">
+                <a href="../pages/Productos.js" className="text-reset">
                   Tratamientos
                 </a>
               </p>
