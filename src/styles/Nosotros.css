@@ -1,8 +1,8 @@
 .image-scroll {
     width: 100%;
     height: 600px;
-    overflow-x: hidden; /* Oculta el scroll horizontal */
-    margin-right: 2rem; /* Ajusta el margen derecho para separar el scroll del margen */
+    overflow-x: hidden; 
+    margin-right: 2rem; 
   }
   
   .image-scroll::-webkit-scrollbar {
@@ -19,18 +19,18 @@
   
   .image-container {
     display: flex;
-    margin-right: -10px; /* Ajusta el margen derecho para acercar el scroll a las imágenes */
+    margin-right: -10px; 
   }
   
   .component-full {
     width: auto;
     height: 100%;
-    margin-right: 2rem; /* Ajusta el margen derecho de las imágenes */
+    margin-right: 2rem; 
   }
   
   .card-text {
     font-size: 24px;
-    margin-right: 100px; /* Ajusta el margen derecho según sea necesario */
+    margin-right: 100px; 
   }
   
   .nosotros-title {
