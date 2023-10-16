@@ -7,7 +7,7 @@ import {
   MDBCol
 } from 'mdb-react-ui-kit';
 import ComponenteFull from '../assets/img/fotosNosotros/componentefull.png';
-import '../styles/Nosotros.css'; // Importar el archivo de estilos CSS personalizados
+import '../styles/Nosotros.css';
 
 export default function nosotrosCard() {
   return (
@@ -16,7 +16,7 @@ export default function nosotrosCard() {
       <div className="d-flex justify-content-center card-container">
         <MDBCard className="card">
           <MDBRow className='g-0'>
-            <MDBCol md='8' className="col-12">
+            <MDBCol md='8' className="col-12 mr-md-5">
               <MDBCardBody className="card-body">
                 <MDBCardText className="card-text">
                   En Óptica Uricolor, llevamos <span style={{ color: 'orange' }}>más de dos décadas siendo tu elección confiable para cuidar de tu salud visual.</span>

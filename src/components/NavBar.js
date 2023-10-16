@@ -13,6 +13,8 @@ const navbar = () => {
     setOpenLinks(!openLinks);
   };
 
+  
+
   return (
     <div className="navbar">
       <div className="ladoizquierdomenu" id={openLinks ? "open" : "close"}>
@@ -21,18 +23,18 @@ const navbar = () => {
           <Link to="/">Inicio</Link>
           <Link to="/nosotros">Nosotros</Link>
           <Link to="/productos">Productos</Link>
-          <Link to="/productos">Promociones</Link>
+          <Link to="/">Promociones</Link>
           <Link to="/">Salud Visual</Link>
-          <Link to="/nosotros">Contacto</Link>
+          <Link to="/">Contacto</Link>
         </div>
       </div>
-      <div className="ladomediomenu">
+      <div className=" ladomediomenu">
         <Link to="/">Inicio</Link>
         <Link to="/nosotros">Nosotros</Link>
         <Link to="/productos">Productos</Link>
-        <Link to="/productos">Promociones</Link>
+        <Link to="/">Promociones</Link>
         <Link to="/">Salud Visual</Link>
-        <Link to="/nosotros">Contacto</Link>
+        <Link to="/">Contacto</Link>
 
         <button onClick={toggleNavbar}>
           <MenuIcon />
