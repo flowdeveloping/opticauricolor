@@ -142,7 +142,7 @@ export default function Footer() {
                 floating
                 size="lg"
                 className="iconoFooterG text-dark m-2"
-                href="#!"
+                href="https://www.facebook.com/uricolor"
                 role="button"
               >
                 <MDBIcon fab icon="facebook-f" size="2x" />
@@ -154,7 +154,7 @@ export default function Footer() {
                 floating
                 size="lg"
                 className="iconoFooterG text-dark m-2"
-                href="#!"
+                href="https://wa.me/5492612071115"
                 role="button"
               >
                 <MDBIcon fab icon="whatsapp" size="2x" />
@@ -166,7 +166,7 @@ export default function Footer() {
                 floating
                 size="lg"
                 className="iconoFooterG text-dark m-2"
-                href="#!"
+                href="https://www.instagram.com/opticauricolor/"
                 role="button"
               >
                 <MDBIcon fab icon="instagram" size="2x" />
