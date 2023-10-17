@@ -11,13 +11,13 @@ import "../styles/Footer.css";
 
 export default function Footer() {
   return (
-    <div style={{ marginTop: "5rem" }}>
-    <MDBFooter bgColor="light" className="text-center text-lg-start text-muted " >
-      <section className="">
-        <MDBContainer className="text-center text-md-start mt-5" >
-          <MDBRow className="mt-3">
+    <div style={{ marginTop: "3rem" }}>
+    <MDBFooter  bgColor="light" className="text-center text-lg-start text-muted "  >
+      <section className="" >
+        <MDBContainer className="text-center text-md-start mt-5"  >
+          <MDBRow className="mt-3" >
             <MDBCol md="3" lg="4" xl="3" className="mx-auto mb-4">
-              <h6 className="text-uppercase fw-bold mb-4">Uricolor</h6>
+              <h6 className="text-uppercase fw-bold underline-text mb-4">Uricolor</h6>
               <p><a href="/nosotros" className="text-reset">
                   Sobre Nosotros
                 </a></p>
@@ -33,7 +33,7 @@ export default function Footer() {
             </MDBCol>
 
             <MDBCol md="2" lg="2" xl="2" className="mx-auto mb-4">
-              <h6 className="text-uppercase fw-bold mb-4">Productos</h6>
+              <h6 className="text-uppercase fw-bold underline-text mb-4">Productos</h6>
               <p>
                 <a href="../pages/Productos.js" className="text-reset">
                   Anteojos para sol
@@ -62,7 +62,7 @@ export default function Footer() {
             </MDBCol>
 
             <MDBCol md="3" lg="2" xl="2" className="mx-auto mb-4">
-              <h6 className="text-uppercase fw-bold mb-4">Ayuda</h6>
+              <h6 className="text-uppercase fw-bold underline-text mb-4">Ayuda</h6>
               <p>
                 <a href="#!" className="text-reset">
                   Salud Visual
@@ -87,8 +87,8 @@ export default function Footer() {
           </MDBRow>
 
           <MDBRow className="mt-3">
-            <MDBCol md="4" lg="3" xl="3" className="mx-auto mb-md-0 mb-4">
-              <h6 className="text-uppercase fw-bold mb-4">Contáctenos</h6>
+            <MDBCol md="4" lg="3" xl="3" className="mx-auto mb-md-0  mb-4">
+              <h6 className="text-uppercase fw-bold underline-text mb-4">Contáctenos</h6>
               <p>
                 <MDBIcon icon="home" className="me-2" />
                 Espejo 166, Ciudad, Mendoza. C.P. 5500
@@ -99,9 +99,7 @@ export default function Footer() {
               </p>
             </MDBCol>
             <MDBCol md="4" lg="3" xl="4" className="mx-auto mb-md-0 mb-4">
-              <h6 className="text-uppercase fw-bold mb-4">
-                Horario de atención
-              </h6>
+              <h6 className="text-uppercase fw-bold underline-text mb-4">Horario de atención</h6>
 
               <h6 className="text-uppercase fw-bold mb-4">
                 1 de marzo a 31 de diciembre
