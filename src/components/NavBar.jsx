@@ -37,7 +37,9 @@ const Navbar = () => {
             <Link to="#">Contacto</Link>
           </div>
         ) : (
-          <img src={Logo} />
+          <Link to="/">
+            <img src={Logo} alt="Logo" />
+          </Link>
         )}
       </div>
       <div className="ladomediomenu">
