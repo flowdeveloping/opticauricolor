@@ -6,34 +6,36 @@ import '../styles/SaludVisual.css'
 const saludvisualcomponente = () => {
   const imageStyle = {
     width: "100%",
-    height: "300px",
+    height: "auto", // Cambia la altura a automático para que se ajuste proporcionalmente
     objectFit: "cover",
   };
 
   const cardStyle = {
-    width: "60rem",
+    width: "100%", // Ajusta el ancho al 100% para que sea responsive
     margin: "0 auto",
   };
 
   const textStyle = {
-    fontSize: "18px",
+    fontSize: "16px", // Reducir el tamaño de la fuente para dispositivos móviles
     textAlign: "left",
   };
 
-    const highlightStyle1 = {
-    fontWeight: "bold"
+  const highlightStyle1 = {
+    fontWeight: "bold",
+    fontSize: "18px", // Ajustar el tamaño de fuente para dispositivos móviles
   };
 
   const highlightStyle = {
     color: "#FFA51F",
-    fontWeight: "bold"
+    fontWeight: "bold",
+    fontSize: "18px", // Ajustar el tamaño de fuente para dispositivos móviles
   };
 
   const containerStyle = {
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
-    
+    padding: "0 10px", // Agregar espacio de relleno a los lados para dispositivos móviles
   };
 
   const contentStyle = {
@@ -43,12 +45,12 @@ const saludvisualcomponente = () => {
   };
 
   return (
-    <div style={{ display: "flex", justifyContent: "center", alignItems: "center", minHeight: "100vh" }}>
-      <div style={containerStyle}>
+    <div className="promocionescomp-container">
       <h1 className="saludvisual-title custom-title">
-  <span>Salud Visual</span>
-</h1>
+        <span>Salud Visual</span>
+      </h1>
 
+      <div style={containerStyle}>
         <div style={contentStyle}>
           <Card style={cardStyle}>
             <Card.Text style={textStyle}>
@@ -57,11 +59,10 @@ const saludvisualcomponente = () => {
             <Card.Img variant="top" src={portadaSaludVisual} style={imageStyle} />
             <Card.Body>
               <Card.Text style={textStyle}>
-                <span style={highlightStyle}>¿Sabés cuales son los problemas más frecuentes?</span>
+                <span style={highlightStyle}>¿Sabés cuáles son los problemas más frecuentes?</span>
                 <br />
                 <br />
                 <span style={highlightStyle1}>MIOPÍA</span>
-                
                 La miopía implica mala visión a distancia debido a que los rayos de luz se enfocan delante de la retina, y se corrige con lentes divergentes en gafas o lentillas. El grado de miopía puede aumentar si la longitud ocular del ojo crece, y no se puede compensar sin corrección óptica.
                 <br />
                 <br />
@@ -96,3 +97,4 @@ const saludvisualcomponente = () => {
 };
 
 export default saludvisualcomponente;
+

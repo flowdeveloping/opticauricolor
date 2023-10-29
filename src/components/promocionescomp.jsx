@@ -28,8 +28,16 @@ const images = [
 
 function promocionescomp() {
   const cardStyle = {
-    width: '35rem',
-    margin: '4rem',
+    margin: '2rem 4rem', // Ajusta el margen de las tarjetas
+  };
+
+  const cardMediaQueryStyle = {
+    '@media (min-width: 768px)': {
+      width: '45%', // Ajusta el ancho de las tarjetas en tamaños de pantalla más grandes
+    },
+    '@media (max-width: 767px)': {
+      width: '100%', // Ajusta el ancho de las tarjetas en dispositivos móviles
+    },
   };
 
   return (
@@ -39,21 +47,10 @@ function promocionescomp() {
       </h1>
       <div className="promocionescomp-content">
         <Row xs={1} md={2} className="g-4">
-          {images.slice(0, 2).map((item, index) => (
-            <Col key={index}>
+          {images.map((item, index) => (
+            <Col key={index} style={{ marginBottom: '2rem' }}>
               <a href={item.link} target="_blank" rel="noopener noreferrer">
-                <Card style={cardStyle}>
-                  <Card.Img variant="top" src={item.src} />
-                </Card>
-              </a>
-            </Col>
-          ))}
-        </Row>
-        <Row xs={1} md={2} className="g-4" style={{ marginTop: '2rem' }}>
-          {images.slice(2).map((item, index) => (
-            <Col key={index}>
-              <a href={item.link} target="_blank" rel="noopener noreferrer">
-                <Card style={cardStyle}>
+                <Card style={{ ...cardStyle, ...cardMediaQueryStyle }}>
                   <Card.Img variant="top" src={item.src} />
                 </Card>
               </a>
@@ -66,4 +63,3 @@ function promocionescomp() {
 }
 
 export default promocionescomp;
-
