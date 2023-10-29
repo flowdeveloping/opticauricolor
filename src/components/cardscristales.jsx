@@ -63,36 +63,49 @@ const images = [
   
 
   
-function cardscristales() {
-  const cardStyle = {
-    width: "12rem",
-    margin: '1rem 4rem',
-  };
 
-  const titleStyle = {
-    fontSize: "24px",
-    fontWeight: "bold",
-    textAlign: "left",
-    marginLeft: "4rem",
-    marginTop: "5rem",
-    textDecoration: "underline",
-  };
-  return (
-    <div>
-      <div style={titleStyle}>Cristales y tratamientos</div>
-      <Row xs={1} md={4} className="g-4" style={{ margin: '0 4rem' }}> 
-    {images.map((item, index) => (
-        <Col key={index}>
-          <a href={item.link} target="_blank" rel="noopener noreferrer">
-            <Card style={cardStyle}>
-              <Card.Img variant="top" src={item.src} />
-            </Card>
-          </a>
-        </Col>
-      ))}
-    </Row>
-    </div>
-  );
-}
 
-export default cardscristales;
+  
+  const CardsCristales = () => {
+    const cardStyle = {
+      width: "12rem",
+      margin: '1rem 4rem',
+    };
+  
+    const titleStyle = {
+      fontSize: "24px",
+      fontWeight: "bold",
+      textAlign: "left",
+      marginLeft: "4rem",
+      marginTop: "5rem",
+      color: "#0060A8",
+    };
+  
+    const underlineStyle = {
+      borderBottom: "3px solid #FFA51F",
+      paddingBottom: "10px",
+      textDecoration: "none",
+    };
+    
+    return (
+      <div>
+        <div style={titleStyle}>
+          <span style={underlineStyle}>Cristales y tratamientos</span>
+        </div>
+        <Row xs={1} md={4} className="g-4" style={{ margin: '0 4rem' }}> 
+          {images.map((item, index) => (
+            <Col key={index}>
+              <a href={item.link} target="_blank" rel="noopener noreferrer">
+                <Card style={cardStyle}>
+                  <Card.Img variant="top" src={item.src} />
+                </Card>
+              </a>
+            </Col>
+          ))}
+        </Row>
+      </div>
+    );
+  }
+  
+  export default CardsCristales;
+  

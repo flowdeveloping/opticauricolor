@@ -12,7 +12,9 @@ import '../styles/Nosotros.css';
 export default function nosotrosCard() {
   return (
     <div className="nosotros-container d-flex flex-column align-items-center">
-      <h1 className="nosotros-title">Nosotros</h1>
+      <h1 className="nosotros-title custom-title">
+        <span>Nosotros</span>
+      </h1>
       <div className="d-flex justify-content-center card-container">
         <MDBCard className="card">
           <MDBRow className='g-0'>

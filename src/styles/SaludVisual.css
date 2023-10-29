@@ -1,0 +1,11 @@
+.custom-title {
+    font-size: 42px;
+    text-align: center;
+    color: #0060A8;
+    
+}
+  
+  .custom-title span {
+    border-bottom: 3px solid orange;
+  }
+  

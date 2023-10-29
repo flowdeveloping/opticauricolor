@@ -1,6 +1,5 @@
 import React from "react";
-import { Row, Col } from 'react-bootstrap';
-import Card from 'react-bootstrap/Card';
+import { Row, Col, Card } from 'react-bootstrap';
 import AnteojosyProductos1 from '../assets/img/fotosProductosCards/AnteojosyProductos/360.png'
 import AnteojosyProductos2 from '../assets/img/fotosProductosCards/AnteojosyProductos/adrianaCostantini.png'
 import AnteojosyProductos3 from '../assets/img/fotosProductosCards/AnteojosyProductos/airlight.png'
@@ -95,7 +94,9 @@ const images = [
 
 
 
-function CardsProductos() {
+
+
+const CardsProductos = () => {
   const cardStyle = {
     width: '12rem',
     margin: '1rem 4rem'
@@ -107,27 +108,35 @@ function CardsProductos() {
     textAlign: 'left',
     marginLeft: '4rem',
     marginTop: "5rem",
-    textDecoration: "underline",
+    color: '#0060A8',
+  };
+
+  const underlineStyle = {
+    borderBottom: '3px solid #FFA51F',
+    paddingBottom: '10px',
+    textDecoration: 'none',
   };
 
   return (
-    
     <div>
-    <div style={titleStyle}>Anteojos para sol / Armazones</div>
-    <Row xs={1} md={4} className="g-4" style={{ margin: '0 4rem' }}> 
-    {images.map((item, index) => (
-        <Col key={index}>
-          <a href={item.link} target="_blank" rel="noopener noreferrer">
-            <Card style={cardStyle}>
-              <Card.Img variant="top" src={item.src} />
-            </Card>
-          </a>
-        </Col>
-      ))}
-    </Row>
+      <div style={titleStyle}>
+        <span style={underlineStyle}>Anteojos para sol / Armazones</span>
+      </div>
+      <Row xs={1} md={4} className="g-4" style={{ margin: '0 4rem' }}>
+        {images.map((item, index) => (
+          <Col key={index}>
+            <a href={item.link} target="_blank" rel="noopener noreferrer">
+              <Card style={cardStyle}>
+                <Card.Img variant="top" src={item.src} />
+              </Card>
+            </a>
+          </Col>
+        ))}
+      </Row>
     </div>
   );
-}
+};
 
 export default CardsProductos;
+
 

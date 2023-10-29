@@ -1,0 +1,12 @@
+
+.custom-promocionescomp-title {
+    font-size: 42px;
+    text-align: center;
+    color: #0060A8;
+    margin-top: 5rem;
+  }
+  
+  .custom-promocionescomp-title span {
+    border-bottom: 3px solid orange;
+  }
+  

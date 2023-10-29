@@ -32,9 +32,9 @@ const Navbar = () => {
             <Link to="/">Inicio</Link>
             <Link to="/nosotros">Nosotros</Link>
             <Link to="/productos">Productos</Link>
-            <Link to="#">Promociones</Link>
-            <Link to="#">Salud Visual</Link>
-            <Link to="#">Contacto</Link>
+            <Link to="/promociones">Promociones</Link>
+            <Link to="/saludvisual">Salud Visual</Link>
+            <Link to="/contacto">Contacto</Link>
           </div>
         ) : (
           <Link to="/">
@@ -46,9 +46,9 @@ const Navbar = () => {
         <Link to="/">Inicio</Link>
         <Link to="/nosotros">Nosotros</Link>
         <Link to="/productos">Productos</Link>
-        <Link to="#">Promociones</Link>
-        <Link to="#">Salud Visual</Link>
-        <Link to="#">Contacto</Link>
+        <Link to="/promociones">Promociones</Link>
+        <Link to="/saludvisual">Salud Visual</Link>
+        <Link to="/contacto">Contacto</Link>
 
         <button onClick={toggleNavbar}>
           <MenuIcon />
