@@ -28,7 +28,9 @@ const images = [
 
 function promocionescomp() {
   const cardStyle = {
-    margin: '2rem 4rem', // Ajusta el margen de las tarjetas
+    margin: '2rem 3rem', // Ajusta el margen de las tarjetas
+    border: 'none', // Añade un borde transparente a las cards
+    boxShadow: 'none', // Elimina la sombra de las cards
   };
 
   const cardMediaQueryStyle = {
@@ -38,6 +40,12 @@ function promocionescomp() {
     '@media (max-width: 767px)': {
       width: '100%', // Ajusta el ancho de las tarjetas en dispositivos móviles
     },
+  };
+
+  const imageStyle = {
+    width: '80%', // Ajusta el ancho de las imágenes al 90% del contenedor
+    height: 'auto', // Ajusta la altura automáticamente para mantener la proporción
+    border: 'none', // Añade un borde transparente a las imágenes
   };
 
   return (
@@ -51,7 +59,7 @@ function promocionescomp() {
             <Col key={index} style={{ marginBottom: '2rem' }}>
               <a href={item.link} target="_blank" rel="noopener noreferrer">
                 <Card style={{ ...cardStyle, ...cardMediaQueryStyle }}>
-                  <Card.Img variant="top" src={item.src} />
+                  <Card.Img variant="top" src={item.src} style={imageStyle} />
                 </Card>
               </a>
             </Col>
