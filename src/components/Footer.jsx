@@ -21,13 +21,13 @@ export default function Footer() {
               <p><a href="/nosotros" className="text-reset">
                   Sobre Nosotros
                 </a></p>
-                <p><a href="#!" className="text-reset">
+                <p><a href="/promociones" className="text-reset">
                   Condiciones de Uso
                 </a></p>
-                <p><a href="#!" className="text-reset">
+                <p><a href="/promociones" className="text-reset">
                   Condiciones de Promociones
                 </a></p>
-                <p><a href="#!" className="text-reset">
+                <p><a href="/promociones" className="text-reset">
                   Politica de Privacidad
                 </a></p>
             </MDBCol>
@@ -35,27 +35,27 @@ export default function Footer() {
             <MDBCol md="2" lg="2" xl="2" className="mx-auto mb-4">
               <h6 className="text-uppercase fw-bold underline-text mb-4">Productos</h6>
               <p>
-                <a href="../pages/Productos.js" className="text-reset">
+                <a href="/productos" className="text-reset">
                   Anteojos para sol
                 </a>
               </p>
               <p>
-                <a href="../pages/Productos.js" className="text-reset">
+                <a href="/productos" className="text-reset">
                   Armazones
                 </a>
               </p>
               <p>
-                <a href="../pages/Productos.js" className="text-reset">
+                <a href="/productos" className="text-reset">
                   Accesorios
                 </a>
               </p>
               <p>
-                <a href="../pages/Productos.js" className="text-reset">
+                <a href="/productos" className="text-reset">
                   Lentes de Oftálmicos
                 </a>
               </p>
               <p>
-                <a href="../pages/Productos.js" className="text-reset">
+                <a href="/productos" className="text-reset">
                   Tratamientos
                 </a>
               </p>
@@ -64,22 +64,22 @@ export default function Footer() {
             <MDBCol md="3" lg="2" xl="2" className="mx-auto mb-4">
               <h6 className="text-uppercase fw-bold underline-text mb-4">Ayuda</h6>
               <p>
-                <a href="#!" className="text-reset">
+                <a href="/saludvisual" className="text-reset">
                   Salud Visual
                 </a>
               </p>
               <p>
-                <a href="#!" className="text-reset">
+                <a href="/promociones" className="text-reset">
                   Promociones
                 </a>
               </p>
               <p>
-                <a href="#!" className="text-reset">
+                <a href="saludvisual" className="text-reset">
                   Preguntas Frecuentes
                 </a>
               </p>
               <p>
-                <a href="#!" className="text-reset">
+                <a href="/contacto" className="text-reset">
                   Sucursales
                 </a>
               </p>
