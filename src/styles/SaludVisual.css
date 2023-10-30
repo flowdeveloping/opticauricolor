@@ -9,17 +9,13 @@
     border-bottom: 3px solid orange;
   }
   
-  .promocionescomp-container {
-    /* Estilos para el contenedor principal si es necesario */
-  }
+
 
   span{
     font-weight: bold;
   }
   
-  .saludvisual-title {
-    /* Estilos para el título si es necesario */
-  }
+
   
   .container {
     display: flex;
@@ -36,9 +32,7 @@
   .preguntasColor{
     color: orange;
   }
-  .textStyle {
-    /* Agregar otros estilos de texto si es necesario */
-  }
+
   
   @media (max-width: 768px) {
     .container {
