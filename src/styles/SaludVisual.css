@@ -9,3 +9,40 @@
     border-bottom: 3px solid orange;
   }
   
+  .promocionescomp-container {
+    /* Estilos para el contenedor principal si es necesario */
+  }
+
+  span{
+    font-weight: bold;
+  }
+  
+  .saludvisual-title {
+    /* Estilos para el título si es necesario */
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10px; /* Agregar espacio de relleno a los lados para dispositivos móviles */
+    margin: 0 3rem; /* Margen de 3rem en tamaño de escritorio */
+  }
+  
+  .card {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .preguntasColor{
+    color: orange;
+  }
+  .textStyle {
+    /* Agregar otros estilos de texto si es necesario */
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      margin: 0; /* Elimina el margen en dispositivos móviles */
+    }
+  }
+  

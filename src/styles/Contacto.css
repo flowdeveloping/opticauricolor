@@ -1,69 +1,70 @@
 .containerForm {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
-  @media (max-width: 768px) {
-    .containerForm {
-      flex-direction: column;
-      margin-top: 15rem;
-      margin-bottom: 15rem;
-    }
-  }
-  
-  .formContainer {
-    margin-left: 7rem;
-  }
-  
-  .formTitle {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    margin: 1rem 1rem;
-  }
-  
-  .description {
-    font-size: 1rem;
-    margin-bottom: 1rem;
-    margin: 1rem 1rem;
-  }
-  
-  .input {
-    margin: 1rem 1rem;
-    width: 80%;
-    border: 1px solid orange;
-    padding: 0.5rem;
-  }
-  
-  .customButton {
-    background-color: #F7F2F0;
-    border: 1px solid black;
-    color: black;
-    width: 50%;
-    margin: 0.5rem 1rem;
-    align-self: flex-start;
-  }
-  
-  .imageContainer {
-    display: flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+@media (max-width: 768px) {
+  .containerForm {
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1rem;
-    margin-right: 10rem;
+    margin-top: 15rem;
+    margin-bottom: 15rem;
   }
-  
-  @media (max-width: 768px) {
-    .imageContainer {
-      margin-top: 0;
-      margin-right: 0;
-    }
+}
+
+.formContainer {
+  margin-left: 7rem;
+}
+
+.formTitle {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  margin: 1rem 1rem;
+}
+
+.description {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  margin: 1rem 1rem;
+}
+
+.input {
+  margin: 1rem 1rem;
+  width: 80%;
+  border: 1px solid orange;
+  padding: 0.5rem;
+  border-radius: 5px; /* Agregado el borde redondeado */
+}
+
+.customButton {
+  background-color: #F7F2F0;
+  border: 1px solid black;
+  color: black;
+  width: 50%;
+  margin: 0.5rem 1rem;
+  align-self: flex-start;
+  border-radius: 5px;
+}
+
+.imageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  margin-right: 10rem;
+}
+
+@media (max-width: 768px) {
+  .imageContainer {
+    margin-top: 0;
+    margin-right: 0;
   }
-  
-  .image {
-    width: 100%;
-    height: auto;
-  }
-  
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
