@@ -29,7 +29,7 @@ const Navbar = () => {
       <div className="ladoizquierdomenu" id={openLinks ? "open" : "close"}>
         {openLinks ? (
           <div className="hiddenLinks">
-            <Link to="/">Inicio</Link>
+            
             <Link to="/nosotros">Nosotros</Link>
             <Link to="/productos">Productos</Link>
             <Link to="/promociones">Promociones</Link>
@@ -43,7 +43,7 @@ const Navbar = () => {
         )}
       </div>
       <div className="ladomediomenu">
-        <Link to="/">Inicio</Link>
+        
         <Link to="/nosotros">Nosotros</Link>
         <Link to="/productos">Productos</Link>
         <Link to="/promociones">Promociones</Link>

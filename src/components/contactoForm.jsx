@@ -19,22 +19,18 @@ const styles = {
     formTitle: {
       fontSize: '1.5rem',
       marginBottom: '1rem',
+      margin: '1rem 1rem',
     },
     description: {
       fontSize: '1rem',
       marginBottom: '1rem',
+      margin: '1rem 1rem',
     },
-    formContainer: {
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'center',
-        alignItems: 'center',
-        width: '30%',
-        marginRight: '10%',
-      },
+    
     input: {
-      margin: '0.5rem 0',
-      width: '100%',
+      margin: '1rem 1rem',
+      
+      width: '80%',
       border: '1px solid orange',
       padding: '0.5rem',
     },
@@ -43,7 +39,7 @@ const styles = {
       border: '1px solid black',
       color: 'black',
       width: '50%',
-      margin: '0.5rem 0',
+      margin: '0.5rem 1rem',
       alignSelf: 'flex-start',
     },
     imageContainer: {
@@ -52,9 +48,10 @@ const styles = {
         justifyContent: 'center',
         alignItems: 'center',
         marginTop: '2rem', // Agregado margen superior para la versión móvil
+        
       },
       image: {
-        width: '100%', // Ajustado para ocupar todo el ancho en dispositivos móviles
+        width: '130%', // Ajustado para ocupar todo el ancho en dispositivos móviles
         height: 'auto',
       },
   };
@@ -73,18 +70,8 @@ const styles = {
     };
   
     return (
-        <div style={styles.container}>
-        <div
-        style={{
-          ...styles.formContainer,
-          width: '30%',
-          marginRight: '10%',
-          '@media (max-width: 768px)': {
-            width: '80%',
-            marginRight: '0',
-          },
-        }}
-      >
+      <div className="containerForm" style={styles.container}>
+        <div className="formContainer" style={styles.formContainer}>
           <h2 style={styles.formTitle}>¿Tienes alguna consulta?</h2>
           <p style={styles.description}>Envíanos un mensaje con tus consultas, sugerencias o comentarios y te responderemos a la brevedad.</p>
           <form ref={form} onSubmit={sendEmail}>
@@ -94,17 +81,12 @@ const styles = {
             <input type="submit" value="Enviar" style={styles.customButton} />
           </form>
         </div>
-        <div
-        style={{
-          ...styles.imageContainer,
-          marginTop: '0',
-          '@media (max-width: 768px)': {
-            marginTop: '2rem',
-          },
-        }}
-      >
+        <div className="imageContainer" style={styles.imageContainer}>
           <img src={contactoInformacion} style={styles.image} alt='...' />
         </div>
       </div>
     );
+    
+  
+  
   }
