@@ -6,9 +6,6 @@ import Productos from './pages/Productos';
 import Promociones from './pages/Promociones';
 import SaludVisual from './pages/SaludVisual';
 import Contacto from './pages/Contacto'
-
-
-
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
