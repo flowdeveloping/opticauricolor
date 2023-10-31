@@ -1,5 +1,5 @@
 import React from 'react';
-import portadaContacto from '../assets/img/fotocontacto/portadacontacto.png';
+import portadaContacto from '../../assets/img/fotocontacto/portadacontacto.png';
 
 const Productos = () => {
   const divStyle = {

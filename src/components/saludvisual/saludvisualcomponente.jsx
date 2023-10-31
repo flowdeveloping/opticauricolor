@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import portadaSaludVisual from "../assets/img/fotosaludvisual/portadasaludvisual.png";
-import '../styles/SaludVisual.css'
+import portadaSaludVisual from "../../assets/img/fotosaludvisual/portadasaludvisual.png";
+import '../../styles/SaludVisual.css'
 
 const saludvisualcomponente = () => {
 

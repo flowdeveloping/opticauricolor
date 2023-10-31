@@ -1,17 +1,17 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
-import CristalesyTratamientos1 from "../assets/img/fotosProductosCards/cristalesytratamientos/amplitude.png";
-import CristalesyTratamientos2 from "../assets/img/fotosProductosCards/cristalesytratamientos/blueblockglasses.png";
-import CristalesyTratamientos3 from "../assets/img/fotosProductosCards/cristalesytratamientos/futurex.png";
-import CristalesyTratamientos4 from "../assets/img/fotosProductosCards/cristalesytratamientos/hoya.png";
-import CristalesyTratamientos5 from "../assets/img/fotosProductosCards/cristalesytratamientos/kodak.png";
-import CristalesyTratamientos6 from "../assets/img/fotosProductosCards/cristalesytratamientos/rodenstock.png";
-import CristalesyTratamientos7 from "../assets/img/fotosProductosCards/cristalesytratamientos/Sedna.png";
-import CristalesyTratamientos8 from "../assets/img/fotosProductosCards/cristalesytratamientos/Transitions.png";
-import CristalesyTratamientos9 from "../assets/img/fotosProductosCards/cristalesytratamientos/Varilux.png";
-import CristalesyTratamientos10 from "../assets/img/fotosProductosCards/cristalesytratamientos/Vitolen.png";
-import CristalesyTratamientos11 from "../assets/img/fotosProductosCards/cristalesytratamientos/Zeiss.png";
+import CristalesyTratamientos1 from "../../assets/img/fotosProductosCards/cristalesytratamientos/amplitude.png";
+import CristalesyTratamientos2 from "../../assets/img/fotosProductosCards/cristalesytratamientos/blueblockglasses.png";
+import CristalesyTratamientos3 from "../../assets/img/fotosProductosCards/cristalesytratamientos/futurex.png";
+import CristalesyTratamientos4 from "../../assets/img/fotosProductosCards/cristalesytratamientos/hoya.png";
+import CristalesyTratamientos5 from "../../assets/img/fotosProductosCards/cristalesytratamientos/kodak.png";
+import CristalesyTratamientos6 from "../../assets/img/fotosProductosCards/cristalesytratamientos/rodenstock.png";
+import CristalesyTratamientos7 from "../../assets/img/fotosProductosCards/cristalesytratamientos/Sedna.png";
+import CristalesyTratamientos8 from "../../assets/img/fotosProductosCards/cristalesytratamientos/Transitions.png";
+import CristalesyTratamientos9 from "../../assets/img/fotosProductosCards/cristalesytratamientos/Varilux.png";
+import CristalesyTratamientos10 from "../../assets/img/fotosProductosCards/cristalesytratamientos/Vitolen.png";
+import CristalesyTratamientos11 from "../../assets/img/fotosProductosCards/cristalesytratamientos/Zeiss.png";
 
 const images = [
     {

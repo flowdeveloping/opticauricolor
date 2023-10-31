@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
-import '../styles/Contacto.css';
+import '../../styles/Contacto.css';
 import emailjs from '@emailjs/browser';
-import contactoInformacion from '../assets/img/fotocontacto/contactoInformacion/contactoInformacion.png';
+import contactoInformacion from '../../assets/img/fotocontacto/contactoInformacion/contactoInformacion.png';
 
 export default function App() {
   const form = useRef();

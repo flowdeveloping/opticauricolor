@@ -1,7 +1,7 @@
 import React from 'react'
-import ProductoPortada from '../components/productosPortada' 
-import ProductoProductos from '../components/cardsProductos'
-import ProductoCristales from '../components/cardscristales'
+import ProductoPortada from '../components/productos/productosPortada' 
+import ProductoProductos from '../components/productos/cardsProductos'
+import ProductoCristales from '../components/productos/cardscristales'
 
 const Productos = () => {
   return (

@@ -1,9 +1,9 @@
 import React from 'react'
 import {MDBCard, MDBCardImage, MDBRow, MDBCol} from 'mdb-react-ui-kit';
-import foto1Home from '../assets/img/fotosHome/aynotdead1.png';
-import foto2Home from '../assets/img/fotosHome/dolcegabanna2.png';
-import foto3Home from '../assets/img/fotosHome/palosanto3.png';
-import foto4Home from '../assets/img/fotosHome/rayban4.png';
+import foto1Home from '../../assets/img/fotosHome/aynotdead1.png';
+import foto2Home from '../../assets/img/fotosHome/dolcegabanna2.png';
+import foto3Home from '../../assets/img/fotosHome/palosanto3.png';
+import foto4Home from '../../assets/img/fotosHome/rayban4.png';
 ;
 const cards = () => {
   return (

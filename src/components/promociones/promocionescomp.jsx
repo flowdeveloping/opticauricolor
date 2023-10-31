@@ -1,11 +1,11 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
-import '../styles/Promociones.css'; // Importar el archivo CSS para aplicar estilos personalizados
-import PromocionesGalicia from '../assets/img/fotosPromociones/promocionGalicia.png';
-import PromocionesNacion from '../assets/img/fotosPromociones/promocionBancoNacion.png';
-import PromocionesAndes from '../assets/img/fotosPromociones/promocionClubAndes.png';
-import PromocionesUniversitaria from '../assets/img/fotosPromociones/promocionuniversitaria.png';
+import '../../styles/Promociones.css'; // Importar el archivo CSS para aplicar estilos personalizados
+import PromocionesGalicia from '../../assets/img/fotosPromociones/promocionGalicia.png';
+import PromocionesNacion from '../../assets/img/fotosPromociones/promocionBancoNacion.png';
+import PromocionesAndes from '../../assets/img/fotosPromociones/promocionClubAndes.png';
+import PromocionesUniversitaria from '../../assets/img/fotosPromociones/promocionuniversitaria.png';
 
 const images = [
   {

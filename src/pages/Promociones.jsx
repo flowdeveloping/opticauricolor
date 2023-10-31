@@ -1,5 +1,5 @@
 import React from 'react'
-import PromocionesComp from '../components/promocionescomp'
+import PromocionesComp from '../components/promociones/promocionescomp'
 
 
 const Promociones = () => {

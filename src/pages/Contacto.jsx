@@ -1,7 +1,7 @@
 import React from 'react'
-import Contactoportada from '../components/contactoportada'
-import ContactoForm from '../components/contactoForm'
-import ContactoMaps from '../components/contactomaps'
+import Contactoportada from '../components/contacto/contactoportada'
+import ContactoForm from '../components/contacto/contactoForm'
+import ContactoMaps from '../components/contacto/contactomaps'
 
 
 const Contacto = () => {

@@ -1,7 +1,7 @@
 import React from 'react';
-import Carousel from '../components/carousel';
-import Cards from '../components/cards';   
-import CardPublicidad from '../components/cardPublicidad' 
+import Carousel from '../components/Inicio/carousel';
+import Cards from '../components/Inicio/cards';   
+import CardPublicidad from '../components/Inicio/cardPublicidad' 
 
 const Inicio = () => {
   return (

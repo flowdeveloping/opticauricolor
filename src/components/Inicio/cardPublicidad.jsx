@@ -1,5 +1,5 @@
 import React from 'react'
-import ImgPublicidad from '../assets/img/publicidadhome/publicidadHome.png'
+import ImgPublicidad from '../../assets/img/publicidadhome/publicidadHome.png'
 
 
 

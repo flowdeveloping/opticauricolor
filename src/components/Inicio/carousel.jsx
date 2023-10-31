@@ -1,7 +1,7 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel';
-import PortadaSlider1 from '../assets/img/sliderhome/PortadaSlider1.png'
-import PortadaSlider2 from '../assets/img/sliderhome/PortadaSlider2.png'
+import PortadaSlider1 from '../../assets/img/sliderhome/PortadaSlider1.png'
+import PortadaSlider2 from '../../assets/img/sliderhome/PortadaSlider2.png'
 
 
 const CarouselComponent = () => {

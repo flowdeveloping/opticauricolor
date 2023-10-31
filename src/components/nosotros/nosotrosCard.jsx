@@ -6,8 +6,8 @@ import {
   MDBRow,
   MDBCol
 } from 'mdb-react-ui-kit';
-import ComponenteFull from '../assets/img/fotosNosotros/componentefull.png';
-import '../styles/Nosotros.css';
+import ComponenteFull from '../../assets/img/fotosNosotros/componentefull.png';
+import '../../styles/Nosotros.css';
 
 export default function nosotrosCard() {
   return (

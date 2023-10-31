@@ -1,5 +1,5 @@
 import React from "react";
-import ProductosPortada from '../assets/img/fotosProductosCards/productosPortada/portadaProducto.png'
+import ProductosPortada from '../../assets/img/fotosProductosCards/productosPortada/portadaProducto.png'
 
 const Productos = () => {
   const titleStyle = {
