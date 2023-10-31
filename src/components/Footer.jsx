@@ -107,11 +107,11 @@ export default function Footer() {
                 </h6>
                 <p>
                   <MDBIcon icon="" className="me-2" />
-                  Lunes a viernes 10 a 14 hs y 17 a 20 hs
+                  Lunes a viernes 10 a 14hs - 17 a 20hs
                 </p>
                 <p>
                   <MDBIcon icon="" className="me-2" />
-                  Sábados 10 a 13:30 hs.
+                  Sábados 10 a 13:30 hs
                 </p>
               </MDBCol>
             </MDBRow>

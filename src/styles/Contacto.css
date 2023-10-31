@@ -3,7 +3,17 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 70vh;
+}
+
+.productos-container {
+  margin: 3rem;
+}
+
+@media (max-width: 768px) {
+  .productos-container {
+    margin: 0;
+  }
 }
 
 @media (max-width: 768px) {
@@ -15,7 +25,7 @@
 }
 
 .formContainer {
-  margin-left: 7rem;
+  margin-left: 1rem; /* Ajuste el valor según sea necesario */
 }
 
 .formTitle {
@@ -54,7 +64,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 1rem;
-  margin-right: 10rem;
+  margin-right: 0; /* Ajustado a 0 */
 }
 
 @media (max-width: 768px) {

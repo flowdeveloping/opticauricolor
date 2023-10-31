@@ -13,7 +13,7 @@ export default function App() {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_rfg0t6h', 'template_ild8gaf', form.current, 'WjpkE8ySvdi5dcF4C')
+      .sendForm('service_rfg0t6h', 'template_ild8gaf', form.current, 'I11RilP4br9iys5-u')
       .then(
         (result) => {
           console.log(result.text);
