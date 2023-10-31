@@ -8,7 +8,7 @@ const contactomaps = () => {
     const containerStyle = {
         display: 'flex',
         justifyContent: 'center',
-        marginTop: '2rem', // Agregar margen superior de 2 rem
+        marginTop: '8rem', // Agregar margen superior de 2 rem
     };
 
     return (
